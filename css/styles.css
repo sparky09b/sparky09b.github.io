@@ -1,6 +1,8 @@
 header h1 {
-    collor: #0076bb;
+    color: #0076bb;
 }
+
+nav ul {padding: 0;}
 
 nav ul li {
     float: left;
@@ -22,5 +24,6 @@ main img {
 }
 
 footer {
-    text-align: center;;
+    text-align: center;
+    clear: both;
 }
