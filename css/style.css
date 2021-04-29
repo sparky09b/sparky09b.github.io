@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@700&display=swap");
 
+h1, h2, h3 { font-family: 'Roboto', 'Open Sans', sans-serif; }
+
 h2 {
   border-style: none none solid none;
 }
@@ -27,7 +29,7 @@ main {
 }
 
 header img {
-  float: right;
+  /* float: right; */
   width: 150px;
   height: auto;
 }
