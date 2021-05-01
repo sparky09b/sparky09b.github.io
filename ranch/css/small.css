@@ -10,7 +10,7 @@
 
   /* header rules here */
   header {
-    background-color: #17a8e4;
+    background-color: #a9def9;
     padding: 1rem 2%;
   }
   header h1 {
@@ -56,5 +56,5 @@
   footer {
     text-align: center;
     padding: 1rem 2%;
-    background-color: #19a8e4;
+    background-color: #a9def9;
   }
