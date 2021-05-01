@@ -2,8 +2,10 @@
 
   header, footer, nav, main {max-width: 75rem; margin: auto;}
 
+  
   nav ul {padding-left: 2%}
   nav ul li {flex-basis: auto;}
+     
 
   main figure {width: 31%}
 
