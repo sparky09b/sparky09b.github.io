@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @media only screen and (min-width: 1028px) {
 
   header, footer, nav, main {max-width: 75rem; margin: auto;}
@@ -12,19 +12,4 @@
 
   div.news {column-count: 3;}
 
-=======
-@media only screen and (min-width: 1028px) {
-
-  header, footer, nav, main {max-width: 75rem; margin: auto;}
-
-  
-  nav ul {padding-left: 2%}
-  nav ul li {flex-basis: auto;}
-     
-
-  main figure {width: 31%}
-
-  div.news {column-count: 3;}
-
->>>>>>> 1f21ae5585b0aabd930c83e471edeb5a91a4c2c9
 } /* end of media query*/

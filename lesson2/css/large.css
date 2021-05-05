@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 @media only screen and (min-width: 1028px) {
 
   main {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-=======
-@media only screen and (min-width: 1028px) {
-
-  main {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
->>>>>>> 1f21ae5585b0aabd930c83e471edeb5a91a4c2c9
 } /* end of media query*/
