@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@700&display=swap");
 
 h1, h2, h3 { font-family: 'Roboto', 'Open Sans', sans-serif; }
@@ -35,4 +36,41 @@ header img {
 }
 
 #currentyear {color: #fcf6bd;}
+=======
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@700&display=swap");
+
+h2 {
+  border-style: none none solid none;
+}
+
+body {
+  font-size: medium;
+}
+
+header, main, footer {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+header, footer {
+  font-family: "Roboto", tahoma, sans-serif;
+  /* border: 1px solid #bbb; */
+  padding: .05rem;
+  background-color: #a9def9;
+  text-align: center;
+  border-radius: 30px;
+}
+
+main {
+  font-family: "Montserrat", helvetica, sans-serif;
+}
+
+header img {
+  float: right;
+  width: 150px;
+  height: auto;
+}
+
+#currentyear {color: #fcf6bd;}
+>>>>>>> 1f21ae5585b0aabd930c83e471edeb5a91a4c2c9
 #lastupdated {color: #fcf6bd;}
