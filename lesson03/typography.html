@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Week 3 - weather site project - city-forecast.com"
+    />
+    <meta name="author" content="Mark J. Stevens" />
+
+    <title>Typography: City-Forecast.com</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet" />
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet" />
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet" />
+    <!-- load Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+      <img src="images/weather-logo.png" alt="logo" />
+      <h1>City-Forecast</h1>
+      <h2>Information you can use</h2>
+    </header>
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+      <ul>
+        <li><a href="index.html">Site Plan</a></li>
+        <li><a href="target-audience.html">Target Audience</a></li>
+        <li><a href="color-scheme.html">Color Scheme</a></li>
+        <li class="active"><a href="typography.html">Typography</a></li>
+      </ul>
+    </nav>
+
+    <!-- CONTENT HERE -->
+    <main>
+      <h1>Typography</h1>
+      <p>
+        Using the following from Google Fonts<br/>
+        Montserrat Regular 400 for body text.
+      </p>
+      <p>
+        Roboto Slab 400 for header text.
+      </p>
+        
+
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+      <p>
+        &copy; <span id="currentyear"></span> | Mark J. Stevens | Utah |
+        <a href="https://www.byui.edu/online">BYUI Online Learning</a><br />
+        Last Updated: <span id="lastupdated"></span>
+      </p>
+    </footer>
+    <script src="js/date.js"></script>
+  </body>
+</html>
